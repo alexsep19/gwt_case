@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='startpoint'>
+  <!-- Inherit the core Web Toolkit stuff.                        -->
+  <inherits name='com.google.gwt.user.User' />
+  <inherits name='com.sencha.gxt.ui.GXT'/>
+  <inherits name="com.google.web.bindery.requestfactory.RequestFactory" />
+  <inherits name='gx.startpoint'/>
+  <inherits name='com.sencha.gxt.theme.gray.Gray' />
+
+  <entry-point class='gx.client.startpoint' />
+
+  <stylesheet src="reset.css" />
+  
+  <source path='client' />
+</module>
